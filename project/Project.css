@@ -244,3 +244,481 @@ body {
   font-weight: 800;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (min-width: 619px) and (max-width: 900px) {
+  .contact-info p {
+    width: 300px !important;
+  }
+  .content-icon {
+    width: 137px;
+  }
+
+  .content-icon p {
+    width: 119px !important;
+  }
+  .middle {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 387px;
+  }
+
+  .container-all {
+    font-size: 12px;
+    width: 82vh;
+  }
+
+  .input-text input {
+    margin-top: 15px;
+  }
+
+  .input-text {
+    margin-bottom: 30px;
+  }
+
+  .main h2 span {
+    font-size: 28px;
+  }
+
+  .content-footer p {
+    font-size: 12px !important;
+  }
+
+  .main-btn {
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  .main h3 {
+    font-size: 1em;
+  }
+
+  .social-icon a {
+    font-size: 40px;
+    margin-left: -13px;
+  }
+
+  .about-footer {
+    width: 200px !important;
+  }
+  .Location {
+    width: 200px !important;
+    margin-top: 20px !important;
+  }
+  .content-footer h2 {
+    font-size: 17px !important;
+  }
+  .img-about img {
+    width: 300px !important;
+    height: 300px;
+  }
+  .icon-footer .fa-brands {
+    font-size: 25px !important;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 409px) and (max-width: 619px) {
+  .icon .fa-solid {
+    font-size: 24px;
+  }
+
+  .content-icon p {
+    width: 90px !important;
+  }
+
+  .content-icon {
+    width: 104px;
+  }
+  .middle {
+    margin-left: 10px;
+    margin-right: 15px;
+    height: 323px;
+  }
+
+  .container-all {
+    font-size: 9px;
+    height: 50vh !important;
+    width: 46vh !important;
+  }
+
+  .contact-info p {
+    width: 207px !important;
+    margin-bottom: 0px;
+  }
+
+  .input-text {
+    margin-bottom: 100px;
+    width: 200px;
+  }
+
+  .container-all h2 {
+    font-size: 16px;
+  }
+  .main {
+    padding: 100px 98px;
+  }
+  .main h2 span {
+    font-size: 28px;
+  }
+
+  .content-footer p {
+    font-size: 9px !important;
+  }
+
+  .main-btn {
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  .main h3 {
+    font-size: 1em;
+  }
+
+  .social-icon a {
+    font-size: 29px;
+    margin-left: -13px;
+  }
+  .about-footer {
+    width: 150px !important;
+  }
+
+  .about-footer h2 {
+    font-size: 15px;
+  }
+  .Location {
+    width: 150px !important;
+    margin-top: 20px !important;
+  }
+  .content-footer h2 {
+    font-size: 12px !important;
+  }
+  .img-about img {
+    width: 200px;
+    height: 200px;
+  }
+  .icon-footer .fa-brands {
+    font-size: 15px !important;
+  }
+
+  .text-about h5 {
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 0.75em !important;
+  }
+  .text-about {
+    justify-content: center;
+  }
+
+  .text-about h2 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .text-about p {
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 409px) {
+  .input-text {
+    margin-bottom: 38px;
+    width: 139px;
+  }
+
+  .input-text {
+    margin-bottom: 175px;
+    width: 139px;
+  }
+  .input-text input {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0px;
+    font-size: 10px;
+    width: 100px;
+    width: 155px;
+  }
+  .input-text textarea {
+    margin-top: 12px;
+    background-color: rgb(237, 197, 103);
+    padding: 10px;
+    border-radius: 10px;
+    width: 155px;
+    height: 58px;
+    font-size: 10px;
+  }
+
+  .icon .fa-solid {
+    font-size: 14px;
+  }
+
+  .icon p {
+    font-size: 7px !important;
+    margin-bottom: 1px !important;
+  }
+
+  .content-icon {
+    width: 200px;
+    margin-left: 57px;
+  }
+
+  .content-icon p {
+    width: 50px !important;
+  }
+
+  .container-all p {
+    color: rgb(255, 255, 255);
+    font-size: 7px;
+  }
+
+  .contact-right {
+    width: 171px;
+    margin-right: 40px;
+  }
+
+  .container-all {
+    width: 42vh;
+    height: 36vh;
+  }
+  .middle {
+    background-color: rgb(237, 197, 103);
+    height: 200px;
+    padding-left: 3px;
+    margin: 5px;
+  }
+
+  .main h2 {
+    font-size: 10px !important;
+    margin-bottom: 2px;
+  }
+  .contact-info p {
+    width: 170px;
+    margin-bottom: 0;
+    margin-right: 61px;
+  }
+
+  .cards .title {
+    font-size: 1.5em;
+  }
+
+  .social-icon a {
+    font-size: 29px;
+    margin-left: -13px;
+  }
+
+  .content-footer p {
+    font-size: 12px !important;
+  }
+
+  .social-icon a {
+    font-size: 29px;
+    margin-left: -13px;
+  }
+
+  .content-footer p {
+    font-size: 6px !important;
+  }
+
+  .about-footer h2 {
+    margin-bottom: 15px;
+  }
+
+  .icons h2 {
+    margin-top: 9px;
+  }
+  .about-footer {
+    width: 100px !important;
+  }
+  .Location {
+    width: 100px !important;
+    margin-top: 20px !important;
+  }
+  .content-footer h2 {
+    font-size: 12px !important;
+  }
+  .icon-footer .fa-brands {
+    font-size: 13px !important;
+    margin-left: 4px !important;
+  }
+
+  .img-about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+  }
+
+  .text-about h5 {
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 0.75em !important;
+  }
+  .text-about {
+    justify-content: center;
+  }
+
+  .text-about input {
+    padding: 4px 3px;
+  }
+
+  .text-about h2 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .text-about p {
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 295px) {
+  .input-text {
+    margin-bottom: 38px;
+    width: 139px;
+  }
+
+  .input-text {
+    margin-bottom: 175px;
+    width: 139px;
+  }
+  .input-text input {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0px;
+    font-size: 10px;
+    width: 100px;
+    width: 114px;
+  }
+  .input-text textarea {
+    margin-top: 12px;
+    background-color: rgb(237, 197, 103);
+    padding: 10px;
+    border-radius: 10px;
+    width: 114px;
+    height: 58px;
+    font-size: 8px;
+  }
+
+  .icon .fa-solid {
+    font-size: 14px;
+  }
+
+  .icon p {
+    font-size: 7px !important;
+    margin-bottom: 1px !important;
+  }
+
+  .content-icon {
+    width: 200px;
+    margin-left: 57px;
+  }
+
+  .content-icon p {
+    width: 50px !important;
+  }
+
+  .container-all p {
+    color: rgb(255, 255, 255);
+    font-size: 5px !important;
+  }
+
+  .contact-right {
+    width: 171px;
+    margin-right: 40px;
+  }
+
+  .container-all {
+    width: 42vh;
+    height: 45vh;
+  }
+
+  .middle {
+    background-color: rgb(237, 197, 103);
+    height: 188px;
+    padding-left: 3px;
+    margin: 5px;
+  }
+
+  .main h2 {
+    font-size: 6px !important;
+    margin-bottom: 2px;
+  }
+  .contact-info p {
+    width: 116px !important;
+    margin-bottom: 0 !important;
+    margin-right: 61px !important;
+  }
+
+  .alogo {
+    margin-left: 0px !important;
+  }
+
+  .content-footer p {
+    font-size: 5px !important;
+  }
+
+  .about-footer {
+    width: 100px !important;
+  }
+  .Location {
+    width: 100px !important;
+    margin-top: 20px !important;
+  }
+  .content-footer h2 {
+    font-size: 6px !important;
+    margin-left: -2px;
+  }
+  .icon-footer .fa-brands {
+    font-size: 6px !important;
+  }
+  .end-footer p {
+    font-size: 10px !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-all {
+    width: 80vw;
+  }
+  .middle {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .input-text {
+    margin-bottom: 30px;
+  }
+
+  .contact-info p {
+    width: 400px !important;
+  }
+  .content-icon p {
+    width: 178px;
+  }
+
+  /* .contact-info p {
+    width: 200px;
+  } */
+}
+
+@media (max-width: 294px) {
+  .container-all {
+    width: 80vw;
+    height: 36vh;
+  }
+  .end-footer p {
+    font-size: 10px !important;
+  }
+  .middle {
+    background-color: rgb(237, 197, 103);
+    height: 189px !important;
+    padding-left: 3px;
+    margin: 5px;
+  }
+}
