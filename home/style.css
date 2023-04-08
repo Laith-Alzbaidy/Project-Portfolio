@@ -56,6 +56,9 @@
     display: flex !important;
     margin-left: 40vw;
   }
+  .info p {
+    font-size: 9.9px !important;
+  }
 }
 .nav-link {
   display: block;
@@ -130,7 +133,6 @@ body {
   background-position: center center;
   background-attachment: fixed;
   height: 100vh;
-  transition: 0.6;
 }
 .main div {
   transition: 3s;
@@ -204,7 +206,7 @@ body {
   justify-content: center;
   color: white;
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 
@@ -533,8 +535,12 @@ body {
 }
 
 @media (max-width: 409px) {
+  .info p {
+    font-size: 9.9px;
+  }
+
   .cards .title {
-    font-size: 1.5em;
+    font-size: 25px;
   }
 
   .main {
@@ -697,13 +703,14 @@ body {
   }
 
   .info p {
-    font-size: 9.9px !important;
+    font-size: 5.5px !important;
     color: white;
     line-height: 20px;
     text-align: center;
+    width: 171px;
   }
   .info h3 {
-    font-size: 0.6em;
+    font-size: 12px;
     margin-bottom: 2px;
     margin-top: 5px;
   }
