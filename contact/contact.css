@@ -77,7 +77,6 @@ body {
 .navbar-nav .nav-link.show {
   color: var(--bs-navbar-active-color);
   color: #010057;
-  font-weight: bold;
   font-size: 1em;
 }
 
