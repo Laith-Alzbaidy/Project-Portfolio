@@ -41,7 +41,6 @@
 #hover-line-nav::after {
   content: '';
   height: 2px;
-  width: 40px;
   position: absolute;
   background-color: rgb(237, 197, 103);
   bottom: 16px;
@@ -51,7 +50,7 @@
 }
 #hover-line-nav:hover:after {
   display: block;
-  width: 60%;
+  width: 40%;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -148,12 +147,11 @@ body {
   color: black;
 }
 .img-project img {
-    width: 99%;
-    height: 200px;
-    border-radius: 10px;
-}s
-
-.img-project {
+  width: 99%;
+  height: 200px;
+  border-radius: 10px;
+}
+ss .img-project {
   text-align: center;
   margin: 5px;
 }
