@@ -400,6 +400,7 @@ body {
   letter-spacing: 2px;
   margin-bottom: 25px;
   text-transform: capitalize;
+  font-size: 23px !important;
 }
 
 .text-about span {
@@ -534,7 +535,7 @@ body {
     letter-spacing: 2px;
     margin-bottom: 25px;
     text-transform: capitalize;
-    font-size: 0.75em !important;
+    font-size: 23px !important;
   }
   .text-about {
     justify-content: center;
@@ -639,14 +640,19 @@ body {
     letter-spacing: 2px;
     margin-bottom: 25px;
     text-transform: capitalize;
-    font-size: 0.75em !important;
+    font-size: 10px !important;
   }
   .text-about {
     justify-content: center;
   }
 
   .text-about button {
-    padding: 4px 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
   }
 
   .text-about h2 {
@@ -657,7 +663,7 @@ body {
   }
   .text-about p {
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 9px;
   }
   .end-footer p {
     font-size: 10px !important;
@@ -691,10 +697,13 @@ body {
     margin-bottom: 0rem;
   }
   .text-about button {
+    background-color: rgb(0, 0, 0);
+    color: white;
     font-weight: bold;
-    padding: 0px 0px;
-    border-radius: 23px;
-    font-size: 11px;
+    padding: 4px 9px;
+    border-radius: 30px;
+    transition: 0.4s;
+    margin-top: 3px;
   }
 
   .content-footer p {
