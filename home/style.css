@@ -74,7 +74,7 @@
     margin-left: 40vw;
   }
   .info p {
-    font-size: 9.9px !important;
+    font-size: 10px !important;
   }
 }
 .nav-link {
@@ -731,9 +731,10 @@ body {
   .info p {
     font-size: 5.5px !important;
     color: white;
-    line-height: 20px;
+    line-height: 10px;
     text-align: center;
     width: 171px;
+    margin-top: 5px;
   }
   .info h3 {
     font-size: 12px;
