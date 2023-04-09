@@ -148,9 +148,10 @@ body {
   color: black;
 }
 .img-project img {
-  width: 99%;
-  border-radius: 10px;
-}
+    width: 99%;
+    height: 200px;
+    border-radius: 10px;
+}s
 
 .img-project {
   text-align: center;
