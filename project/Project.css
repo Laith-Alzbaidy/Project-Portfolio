@@ -166,7 +166,7 @@ body {
 }
 
 .info-project p {
-  font-size: 0.7em;
+  font-size: 13.5px;
   text-align: left;
   color: aliceblue;
   font-weight: 800;
@@ -425,6 +425,9 @@ body {
 }
 
 @media (max-width: 409px) {
+  .info-project p {
+    font-size: 9px;
+  }
   .content-project {
     grid-template-columns: repeat(auto-fill, minmax(280px, 376px));
   }
