@@ -186,7 +186,7 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  margin-top: 20px;
+  border-top: 2px solid #e7cd7b;
 }
 
 .content-footer {
@@ -477,8 +477,8 @@ body {
   }
 
   .container-all {
-    width: 42vh;
-    height: 36vh;
+    width: 90vw;
+    height: 31vh;
   }
   .middle {
     background-color: rgb(237, 197, 103);
@@ -630,8 +630,8 @@ body {
   }
 
   .container-all {
-    width: 42vh;
-    height: 45vh;
+    width: 79vw;
+    height: 28vh;
   }
 
   .middle {

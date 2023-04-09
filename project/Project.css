@@ -151,7 +151,7 @@ body {
   height: 200px;
   border-radius: 10px;
 }
-ss .img-project {
+.img-project {
   text-align: center;
   margin: 5px;
 }
@@ -203,6 +203,7 @@ ss .img-project {
   background-color: black;
   color: white;
   text-align: center;
+  border-top: 2px solid #e7cd7b;
 }
 
 .content-footer {
@@ -424,6 +425,18 @@ ss .img-project {
 }
 
 @media (max-width: 409px) {
+  .content-project {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 376px));
+  }
+  .img-project {
+    text-align: center;
+  }
+  .img-project img {
+    width: 99%;
+    height: 200px;
+    border-radius: 10px;
+  }
+
   .input-text {
     margin-bottom: 38px;
     width: 139px;
