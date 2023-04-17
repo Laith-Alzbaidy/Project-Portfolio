@@ -1,4 +1,20 @@
 /* Bootstarp */
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+  animation-name: fa-spin;
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+  animation-duration: var(--fa-animation-duration, 10s) !important;
+  -webkit-animation-iteration-count: var(
+    --fa-animation-iteration-count,
+    infinite
+  );
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+  animation-timing-function: var(--fa-animation-timing, linear);
+  transition: 5s;
+}
+
 .navbar-toggler-icon {
   display: inline-block;
   vertical-align: middle;
@@ -13,7 +29,7 @@
 }
 
 .alogo {
-  width: 80px;
+  width: 60px;
   border-radius: 20px;
   margin-left: 60px !important;
 }
@@ -45,12 +61,16 @@
   background-color: rgb(237, 197, 103);
   bottom: 16px;
   left: 20px;
-  transition: 3s;
-  display: none;
+  transition: 2s;
+  transform: translateX(0%);
+  display: inline-block;
+  align-items: center;
+  display: flex;
 }
 #hover-line-nav:hover:after {
   display: block;
   width: 40%;
+  transform: translateX(30%);
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -92,6 +112,15 @@
   color: #0d5595 !important;
   font-size: 1em !important;
   font-weight: bold !important;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: end;
 }
 /* bootstrap */
 * {
@@ -736,4 +765,9 @@ body {
     padding-left: 3px;
     margin: 5px;
   }
+}
+
+.icon-footer .fa-bounce {
+  --fa-bounce-start-scale-y: 0.9 !important;
+  --fa-bounce-jump-scale-y: 0.5 !important;
 }
